@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qVJseAEovcWsO39D62e/JQQs/PHXeQ838voPmdy5bIwuf5NEzjM0quebHi1ycs3VgPUHRarblGwQUMZWVEa2Fg==",
+  "dgSpecHash": "bQrs32GvpyTFsqr+8CdbZFFgL9ECTPkVv/wTpeE/MN5PREWGLiTQrxDJajQgQy4SQCl6HREXOuttiqm9L0XfDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\taii le mehdi\\source\\repos\\TaskManagement.HOST.API\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\mongodb.bson\\2.15.1\\mongodb.bson.2.15.1.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

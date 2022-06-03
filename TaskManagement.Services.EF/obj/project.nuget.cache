@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "BQmiRb5pBKnvRVSVCsizyxNS+VfsCDKhx62qUGNTBBhdZ9sKqnh/q8HoZ8mi8QfgHkP1QHv+U6ePcisJtYr8Gw==",
+  "dgSpecHash": "EXQ+jlJ8Vqza62B9O99joVVGCmuFvrVcG6IQRP2fU7MCSqoRyaaV2hqQXQqb8VAzgxQG/8NF7vHfTDLVfIayJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\taii le mehdi\\source\\repos\\TaskManagement.HOST.API\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.5\\microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.5\\microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\taii le mehdi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

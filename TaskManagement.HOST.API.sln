@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Host.Api", "TaskManagement.HOST.API\TaskManagement.Host.Api.csproj", "{DE448943-35CA-440C-9757-F9632FC4098D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Host.Api", "TaskManagement.HOST.API\TaskManagement.Host.Api.csproj", "{DE448943-35CA-440C-9757-F9632FC4098D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Business", "TaskManagement.Business\TaskManagement.Business.csproj", "{6BEE9BDA-615A-405D-9949-AB1BD9AE892D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Business", "TaskManagement.Business\TaskManagement.Business.csproj", "{6BEE9BDA-615A-405D-9949-AB1BD9AE892D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Services.Contract", "TaskManagement.Services.Contract\TaskManagement.Services.Contract.csproj", "{71AE5BCD-D1BC-4424-9BBB-07F0160CD35B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Services.Contract", "TaskManagement.Services.Contract\TaskManagement.Services.Contract.csproj", "{71AE5BCD-D1BC-4424-9BBB-07F0160CD35B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Scheduler", "TaskManagement.Scheduler\TaskManagement.Scheduler.csproj", "{BFF72FCA-D62E-4AE9-AF81-2D64CB6A2438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Scheduler", "TaskManagement.Scheduler\TaskManagement.Scheduler.csproj", "{BFF72FCA-D62E-4AE9-AF81-2D64CB6A2438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Services.EF", "TaskManagement.Services.EF\TaskManagement.Services.EF.csproj", "{45D56755-AA97-4371-8CA7-23EDFFEA524E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Services.EF", "TaskManagement.Services.EF\TaskManagement.Services.EF.csproj", "{45D56755-AA97-4371-8CA7-23EDFFEA524E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Services.Mongo", "TaskManagement.Services.Mongo\TaskManagement.Services.Mongo.csproj", "{6B8C855C-9CEE-45D3-BF4B-335E4EE24CEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Services.Mongo", "TaskManagement.Services.Mongo\TaskManagement.Services.Mongo.csproj", "{6B8C855C-9CEE-45D3-BF4B-335E4EE24CEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Notifier", "TaskManagement.Notifier\TaskManagement.Notifier.csproj", "{E2277228-198A-442A-BC1A-861CBAD883A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{6B8C855C-9CEE-45D3-BF4B-335E4EE24CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B8C855C-9CEE-45D3-BF4B-335E4EE24CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B8C855C-9CEE-45D3-BF4B-335E4EE24CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2277228-198A-442A-BC1A-861CBAD883A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2277228-198A-442A-BC1A-861CBAD883A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2277228-198A-442A-BC1A-861CBAD883A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2277228-198A-442A-BC1A-861CBAD883A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
