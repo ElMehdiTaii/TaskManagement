@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "TaskManagement.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TaskManagement.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManagement.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TaskManagement.Entities/1.0.0": {
+      "type": "project",
+      "path": "../TaskManagement.Entities/TaskManagement.Entities.csproj",
+      "msbuildProject": "../TaskManagement.Entities/TaskManagement.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "TaskManagement.Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\taii le mehdi\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\taii le mehdi\\source\\repos\\TaskManagement.HOST.API\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
+      "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
       "projectName": "TaskManagement.Services.Contract",
-      "projectPath": "C:\\Users\\taii le mehdi\\source\\repos\\TaskManagement.HOST.API\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
+      "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
       "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\taii le mehdi\\source\\repos\\TaskManagement.HOST.API\\TaskManagement.Services.Contract\\obj\\",
+      "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -37,7 +56,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj": {
+              "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

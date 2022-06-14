@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TaskManagement.Services.Contract/1.0.0": {
+        "dependencies": {
+          "TaskManagement.Entities": "1.0.0"
+        },
+        "runtime": {
+          "TaskManagement.Services.Contract.dll": {}
+        }
+      },
+      "TaskManagement.Entities/1.0.0": {
+        "runtime": {
+          "TaskManagement.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskManagement.Services.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskManagement.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

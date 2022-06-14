@@ -1,9 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NBuilder" Version="6.1.0" />
+	  <PackageReference Include="Faker.Net" Version="2.0.154" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagement.Services.EF\TaskManagement.Services.EF.csproj" />
+    <ProjectReference Include="..\TaskManagement.Services.Mongo\TaskManagement.Services.Mongo.csproj" />
+  </ItemGroup>
 
 </Project>

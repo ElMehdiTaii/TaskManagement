@@ -1,17 +1,91 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\taii le mehdi\\source\\repos\\TaskManagement.HOST.API\\TaskManagement.Business\\TaskManagement.Business.csproj": {}
+    "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taii le mehdi\\source\\repos\\TaskManagement.HOST.API\\TaskManagement.Business\\TaskManagement.Business.csproj": {
+    "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taii le mehdi\\source\\repos\\TaskManagement.HOST.API\\TaskManagement.Business\\TaskManagement.Business.csproj",
+        "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj",
         "projectName": "TaskManagement.Business",
-        "projectPath": "C:\\Users\\taii le mehdi\\source\\repos\\TaskManagement.HOST.API\\TaskManagement.Business\\TaskManagement.Business.csproj",
+        "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj",
         "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taii le mehdi\\source\\repos\\TaskManagement.HOST.API\\TaskManagement.Business\\obj\\",
+        "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\taii le mehdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj": {
+                "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj"
+              },
+              "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj": {
+                "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Faker.Net": {
+              "target": "Package",
+              "version": "[2.0.154, )"
+            },
+            "NBuilder": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
+        "projectName": "TaskManagement.Entities",
+        "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
+        "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +116,229 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
+        "projectName": "TaskManagement.Services.Contract",
+        "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
+        "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\taii le mehdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj": {
+                "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
+        "projectName": "TaskManagement.Services.EF",
+        "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
+        "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\taii le mehdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj": {
+                "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj",
+        "projectName": "TaskManagement.Services.Mongo",
+        "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj",
+        "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\taii le mehdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj": {
+                "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.13.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
