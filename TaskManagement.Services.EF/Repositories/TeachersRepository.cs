@@ -16,10 +16,11 @@ namespace TaskManagement.Services.EF.Repositories
         {
             _context = context;
         }
-        public async Task Add(Teachers obj)
+        public async Task<Teachers> Add(Teachers obj)
         {
             _context.Teachers.Add(obj);
             await _context.SaveChangesAsync();
+            return obj;
         }
         public async Task AddMany(IEnumerable<Teachers> obj)
         {
@@ -32,11 +33,12 @@ namespace TaskManagement.Services.EF.Repositories
             _context.Teachers.RemoveRange(teachers);
             await _context.SaveChangesAsync();
         }
-        public async Task Delete(Guid id)
+        public async Task<Teachers> Delete(Guid id)
         {
             var teacher = await _context.Teachers.FindAsync(id);
             _context.Remove(teacher);
             await _context.SaveChangesAsync();
+            return teacher;
         }
 
         public IQueryable<Teachers> GetAll()

@@ -17,3 +17,22 @@ C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Se
 C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\TaskManagement.Services.EF.pdb
 C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\TaskManagement.Services.EF.genruntimeconfig.cache
 C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\ref\TaskManagement.Services.EF.dll
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\bin\Debug\net6.0\TaskManagement.Services.EF.deps.json
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\bin\Debug\net6.0\TaskManagement.Services.EF.runtimeconfig.json
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\bin\Debug\net6.0\TaskManagement.Services.EF.dll
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\bin\Debug\net6.0\TaskManagement.Services.EF.pdb
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\bin\Debug\net6.0\TaskManagement.Entities.dll
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\bin\Debug\net6.0\TaskManagement.Services.Contract.dll
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\bin\Debug\net6.0\TaskManagement.Services.Contract.pdb
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\bin\Debug\net6.0\TaskManagement.Entities.pdb
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\TaskManagement.Services.EF.csproj.AssemblyReference.cache
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\TaskManagement.Services.EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\TaskManagement.Services.EF.AssemblyInfoInputs.cache
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\TaskManagement.Services.EF.AssemblyInfo.cs
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\TaskManagement.Services.EF.csproj.CoreCompileInputs.cache
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\TaskManagement.Services.EF.csproj.CopyComplete
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\TaskManagement.Services.EF.dll
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\refint\TaskManagement.Services.EF.dll
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\TaskManagement.Services.EF.pdb
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\TaskManagement.Services.EF.genruntimeconfig.cache
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.EF\obj\Debug\net6.0\ref\TaskManagement.Services.EF.dll

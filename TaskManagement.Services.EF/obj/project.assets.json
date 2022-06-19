@@ -1901,11 +1901,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
+      "projectUniqueName": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
       "projectName": "TaskManagement.Services.EF",
-      "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
+      "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
       "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\obj\\",
+      "outputPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1925,8 +1925,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj": {
-              "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj"
+            "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj": {
+              "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj"
             }
           }
         }
@@ -1977,7 +1977,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

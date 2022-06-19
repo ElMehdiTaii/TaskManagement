@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+2qSOmCCksPs9s7Dwumq8aRmQpaLlIWcjEv/8yialONcgV9QSB2KjV2vil1tWmNgSNRWvZvSYXZBOF1uY3qowQ==",
+  "dgSpecHash": "OnTHMvKBO04mfy9Ofc/AOx5pWqfWfhNPaVAhuO/UIfkpYmCFQjL7LKu9rkLG4Jb2BEBzAfsaP5UQAtgo9bHTJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
+  "projectFilePath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

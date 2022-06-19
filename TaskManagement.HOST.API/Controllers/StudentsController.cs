@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TaskManagement.Business.Interfaces;
 using TaskManagement.Entities.Dto;
 using TaskManagement.Entities.Models;
-using TaskManagement.Services.Contract.Services;
 
 namespace TaskManagement.Host.Api.Controllers
 {
@@ -11,20 +10,16 @@ namespace TaskManagement.Host.Api.Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
-        private readonly IRepositoryWrapper _student;
+        private readonly ITaskManagementService _service;
 
-        private readonly IMapper _mapper;
-
-        public StudentsController(IRepositoryWrapper student, IMapper mapper)
+        public StudentsController(ITaskManagementService service)
         {
-            _student = student;
-
-            _mapper = mapper;
+            _service = service;
         }
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var students = _student.Student.GetAll();
+            var students = await _service.GetAllStudents();
             return Ok(students);
         }
 
@@ -47,14 +42,7 @@ namespace TaskManagement.Host.Api.Controllers
                 return BadRequest("Invalid model object");
             }
 
-            var student = await _student.Student.GetById((Guid)id);
-
-            if (student == null)
-            {
-                return BadRequest("Student Not Exists");
-            }
-
-            _mapper.Map(studentForUpdateDto, student);
+            
 
             await _student.Student.Update(student);
 
@@ -75,12 +63,6 @@ namespace TaskManagement.Host.Api.Controllers
             {
                 return BadRequest("Invalid model object");
             }
-
-            var student = _mapper.Map<Students>(studentForCreateDto);
-
-            _mapper.Map(studentForCreateDto, student);
-
-            await _student.Student.Add(student);
 
             return Ok("Student Created Successfully");
         }

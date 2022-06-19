@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Entities", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Services.Mongo", "TaskManagement.Services.Mongo\TaskManagement.Services.Mongo.csproj", "{4BE0ADAD-D736-4592-B12D-289BAF02B38F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Business", "TaskManagement.Business\TaskManagement.Business.csproj", "{D45A7FBF-089F-4DAF-8019-2E82EE618746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Business", "TaskManagement.Business\TaskManagement.Business.csproj", "{D45A7FBF-089F-4DAF-8019-2E82EE618746}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Services.EF", "TaskManagement.Services.EF\TaskManagement.Services.EF.csproj", "{D55CD1D1-7A3D-4FF1-BAC1-6EC9D71A7E7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Services.EF", "TaskManagement.Services.EF\TaskManagement.Services.EF.csproj", "{D55CD1D1-7A3D-4FF1-BAC1-6EC9D71A7E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Scheduler", "TaskManagement.Scheduler\TaskManagement.Scheduler.csproj", "{FD55424D-CA45-4D05-BB46-8DCA30E7FB1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D55CD1D1-7A3D-4FF1-BAC1-6EC9D71A7E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D55CD1D1-7A3D-4FF1-BAC1-6EC9D71A7E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D55CD1D1-7A3D-4FF1-BAC1-6EC9D71A7E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD55424D-CA45-4D05-BB46-8DCA30E7FB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD55424D-CA45-4D05-BB46-8DCA30E7FB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD55424D-CA45-4D05-BB46-8DCA30E7FB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD55424D-CA45-4D05-BB46-8DCA30E7FB1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

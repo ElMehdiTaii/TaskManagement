@@ -13,11 +13,11 @@ namespace TaskManagement.Services.Contract.Services
 
         Task<T> GetById(Guid id);
 
-        Task Add(T obj);
+        Task<T> Add(T obj);
 
         Task<T> Update(T obj);
 
-        Task Delete(Guid id);
+        Task<T> Delete(Guid id);
         Task AddMany(IEnumerable<T> obj);
 
         Task DeleteMany(Expression<Func<T, bool>> filterExpression);

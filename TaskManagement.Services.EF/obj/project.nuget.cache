@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q+EBaLetZ836BF2DlbcdvdinljXj4o+IEKQW6ByBxzCwfwTNQJp1i7C3B+4WivgixTHitJgfZ8J6sQyNtIYy5w==",
+  "dgSpecHash": "XN5mobidGCtzxwVNdLdWVQgWL1C2v1L0ATSFhWvyu3yv/RjAsre4gdPTB8E6oJ3QatnjjztmIJIWoOm4kwcUYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\taii le mehdi\\Desktop\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
+  "projectFilePath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\taii le mehdi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

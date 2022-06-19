@@ -13,3 +13,18 @@ C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Se
 C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\refint\TaskManagement.Services.Contract.dll
 C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\TaskManagement.Services.Contract.pdb
 C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\ref\TaskManagement.Services.Contract.dll
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\bin\Debug\net6.0\TaskManagement.Services.Contract.deps.json
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\bin\Debug\net6.0\TaskManagement.Services.Contract.dll
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\bin\Debug\net6.0\TaskManagement.Services.Contract.pdb
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\bin\Debug\net6.0\TaskManagement.Entities.dll
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\bin\Debug\net6.0\TaskManagement.Entities.pdb
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\TaskManagement.Services.Contract.csproj.AssemblyReference.cache
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\TaskManagement.Services.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\TaskManagement.Services.Contract.AssemblyInfoInputs.cache
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\TaskManagement.Services.Contract.AssemblyInfo.cs
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\TaskManagement.Services.Contract.csproj.CoreCompileInputs.cache
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\TaskManagement.Services.Contract.csproj.CopyComplete
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\TaskManagement.Services.Contract.dll
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\refint\TaskManagement.Services.Contract.dll
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\TaskManagement.Services.Contract.pdb
+D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Contract\obj\Debug\net6.0\ref\TaskManagement.Services.Contract.dll

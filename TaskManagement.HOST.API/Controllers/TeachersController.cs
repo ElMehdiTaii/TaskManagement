@@ -1,6 +1,10 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Caching.Memory;
+using Newtonsoft.Json;
+using System.Text;
 using TaskManagement.Entities.Dto;
 using TaskManagement.Entities.Models;
 using TaskManagement.Services.Contract.Services;
@@ -15,17 +19,44 @@ namespace TaskManagement.Host.Api.Controllers
 
         private readonly IMapper _mapper;
 
-        public TeachersController(IRepositoryWrapper teacher, IMapper mapper)
+        private readonly IMemoryCache _memoryCache;
+
+        private readonly IDistributedCache _distributedCache;
+
+        public TeachersController(IRepositoryWrapper teacher, IMapper mapper ,IMemoryCache memoryCache, IDistributedCache distributedCache)
         {
             _teacher = teacher;
 
             _mapper = mapper;
+
+            _memoryCache = memoryCache;
+
+            _distributedCache = distributedCache;
         }
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var teachers = _teacher.Teacher.GetAll();
-            return Ok(teachers);
+            var cacheKey = "teacherLists";
+            string serializedTeacherList;
+            var teacherLists = new List<Teachers>();
+            var redisTeacherList = await _distributedCache.GetAsync(cacheKey);
+
+            if (redisTeacherList != null)
+            {
+                serializedTeacherList = Encoding.UTF8.GetString(redisTeacherList);
+                teacherLists = JsonConvert.DeserializeObject<List<Teachers>>(serializedTeacherList);
+            }
+            else
+            {
+                teacherLists = _teacher.Teacher.GetAll().ToList();
+                serializedTeacherList = JsonConvert.SerializeObject(teacherLists);
+                redisTeacherList = Encoding.UTF8.GetBytes(serializedTeacherList);
+                var options = new DistributedCacheEntryOptions()
+                    .SetAbsoluteExpiration(DateTime.Now.AddMinutes(10))
+                    .SetSlidingExpiration(TimeSpan.FromMinutes(2));
+                await _distributedCache.SetAsync(cacheKey, redisTeacherList, options);
+            }
+            return Ok(teacherLists);
         }
 
         [HttpGet("{id}")]
@@ -47,24 +78,13 @@ namespace TaskManagement.Host.Api.Controllers
                 return BadRequest("Invalid model object");
             }
 
-            var teacher = await _teacher.Teacher.GetById((Guid)id);
-
-            if (teacher == null)
-            {
-                return BadRequest("Task Not Exists");
-            }
-
-            _mapper.Map(teacherForUpdateDto, teacher);
-
-            await _teacher.Teacher.Update(teacher);
-
             return Ok("Teacher Updated Successfully");
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            await _teacher.Teacher.Delete(id);
+            await _teacher
             return Ok("Teacher Deletet with success");
         }
         [HttpPost]
