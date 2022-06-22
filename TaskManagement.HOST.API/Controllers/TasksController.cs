@@ -17,61 +17,19 @@ namespace TaskManagement.Host.Api.Controllers
     [ApiController]
     public class TasksController : ControllerBase
     {
-        private readonly IRepositoryWrapper _task;
+        private readonly ITaskManagementService _service;
 
-        private readonly ITaskManagementService _taskManagementService;
-
-        private readonly IMapper _mapper;
-
-        private readonly IMemoryCache _memoryCache;
-
-        private readonly IDistributedCache _distributedCache;
-
-        public TasksController(IRepositoryWrapper task, IMapper mapper, ITaskManagementService taskManagementService
-            , IMemoryCache memoryCache, IDistributedCache distributedCache)
+        public TasksController(ITaskManagementService service)
         {
-            _task = task;
-
-            _mapper = mapper;
-
-            _taskManagementService = taskManagementService;
-
-            _memoryCache = memoryCache;
-
-            _distributedCache = distributedCache;
+            _service = service;
         }
 
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var cacheKey = "taskLists";
-            string serializedTaskList;
-            var taskLists = new List<Tasks>();
-            var redisTaskList = await _distributedCache.GetAsync(cacheKey);
+            var tasks = await _service.GetAllTasks();
 
-            if(redisTaskList != null)
-            {
-                serializedTaskList = Encoding.UTF8.GetString(redisTaskList);
-                taskLists = JsonConvert.DeserializeObject<List<Tasks>>(serializedTaskList);
-            }
-            else
-            {
-                taskLists = _task.Task.GetAll().ToList();
-                serializedTaskList = JsonConvert.SerializeObject(taskLists);
-                redisTaskList = Encoding.UTF8.GetBytes(serializedTaskList);
-                var options = new DistributedCacheEntryOptions()
-                    .SetAbsoluteExpiration(DateTime.Now.AddMinutes(10))
-                    .SetSlidingExpiration(TimeSpan.FromMinutes(2));
-                await _distributedCache.SetAsync(cacheKey, redisTaskList, options);
-            }
-            return Ok(taskLists);
-        }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get(Guid id)
-        {
-            var task = await _task.Task.GetById(id);
-            return Ok(task);
+            return Ok(tasks);
         }
 
         [HttpPut("{id}")]
@@ -86,28 +44,21 @@ namespace TaskManagement.Host.Api.Controllers
                 return BadRequest("Invalid model object");
             }
 
+            if(await _service.UpdateTask(id,taskForUpdateDto))
             
-
-            return Ok("Task Updated Successfully");
+                return Ok("Task Updated Successfully");
+            
+            return BadRequest("Something Was Wrong");
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            await _task.Task.Delete(id);
-            return Ok("Delete with success");
-        }
-        [HttpPost("AddRandonData")]
-        public async Task<IActionResult> AddRandonData(int table)
-        {
-            await _taskManagementService.AddRandomDataTask(table);
-            return Ok();
-        }
-        [HttpDelete("DeleteAllData")]
-        public async Task<IActionResult> DeleteAllData(int table)
-        {
-            await _taskManagementService.DeleteAllDataTask(table);
-            return Ok();
+            if (await _service.DeleteTask(id))
+
+                return Ok("Task Deleted Successfully");
+
+            return BadRequest("Something Was Wrong");
         }
     }
 }

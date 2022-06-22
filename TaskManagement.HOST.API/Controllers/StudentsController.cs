@@ -20,14 +20,8 @@ namespace TaskManagement.Host.Api.Controllers
         public async Task<IActionResult> Get()
         {
             var students = await _service.GetAllStudents();
+            
             return Ok(students);
-        }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get(Guid id)
-        {
-            var student = await _student.Student.GetById(id);
-            return Ok(student);
         }
 
         [HttpPut("{id}")]
@@ -42,18 +36,21 @@ namespace TaskManagement.Host.Api.Controllers
                 return BadRequest("Invalid model object");
             }
 
+            if(await _service.UpdateStudent(id,studentForUpdateDto))
+                
+                return Ok("Student Updated Successfully");
             
-
-            await _student.Student.Update(student);
-
-            return Ok("Student Updated Successfully");
+            return BadRequest("Something Was Wrong");
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            await _student.Student.Delete(id);
-            return Ok("Delete with success");
+            if (await _service.DeleteStudent(id))
+            
+                return Ok("Student Deleted Successfully");
+            
+            return BadRequest("Something Was Wrong");
         }
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] StudentForCreateDto studentForCreateDto)
@@ -63,8 +60,11 @@ namespace TaskManagement.Host.Api.Controllers
             {
                 return BadRequest("Invalid model object");
             }
-
-            return Ok("Student Created Successfully");
+            if (await _service.CreateStudent(studentForCreateDto))
+            
+                return Ok("Student Created Successfully");
+            
+            return BadRequest("Something Was Wrong");
         }
     }
 }

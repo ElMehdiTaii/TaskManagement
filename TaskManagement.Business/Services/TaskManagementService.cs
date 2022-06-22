@@ -93,7 +93,7 @@ namespace TaskManagement.Business.Interfaces
 
         public async Task<IEnumerable<Students>> GetAllStudents()
         {
-            var cacheKey = "stduentLists";
+            var cacheKey = "StudentLists";
             string serializedTeacherList;
             var studentLists = new List<Students>();
             var redisStudentList = await _distributedCache.GetAsync(cacheKey);
@@ -126,9 +126,29 @@ namespace TaskManagement.Business.Interfaces
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Teachers> GetAllTeachers()
+        public async Task<IEnumerable<Teachers>> GetAllTeachers()
         {
-            return _repo.Teacher.GetAll();
+            var cacheKey = "TeacherLists";
+            string serializedTeacherList;
+            var teacherLists = new List<Teachers>();
+            var redisTeacherList = await _distributedCache.GetAsync(cacheKey);
+
+            if (redisTeacherList != null)
+            {
+                serializedTeacherList = Encoding.UTF8.GetString(redisTeacherList);
+                teacherLists = JsonConvert.DeserializeObject<List<Teachers>>(serializedTeacherList);
+            }
+            else
+            {
+                teacherLists = _repo.Teacher.GetAll().ToList();
+                serializedTeacherList = JsonConvert.SerializeObject(teacherLists);
+                redisTeacherList = Encoding.UTF8.GetBytes(serializedTeacherList);
+                var options = new DistributedCacheEntryOptions()
+                    .SetAbsoluteExpiration(DateTime.Now.AddMinutes(10))
+                    .SetSlidingExpiration(TimeSpan.FromMinutes(2));
+                await _distributedCache.SetAsync(cacheKey, redisTeacherList, options);
+            }
+            return teacherLists;
         }
 
         public async Task<bool> UpdateStudent(Guid? id, StudentForUpdateDto studentForUpdateDto)
