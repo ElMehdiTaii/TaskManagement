@@ -11,12 +11,12 @@ namespace TaskManagement.Business.Interfaces
     public interface ITaskManagementService
     {
         public Task<IEnumerable<Students>> GetAllStudents();
-        public IEnumerable<Tasks> GetAllTasks();
+        public Task<IEnumerable<Tasks>> GetAllTasks();
         public IEnumerable<TasksExecution> GetAllTasksExecutions();
         public Task<IEnumerable<Teachers>> GetAllTeachers();
-        public Task<bool> UpdateStudent(Guid? id, StudentForUpdateDto studentForUpdateDto);
-        public Task<bool> UpdateTeacher(Guid? id, TeacherForUpdateDto teacherForUpdateDto);
-        public Task<bool> UpdateTask(Guid? id, TaskForUpdateDto taskForUpdateDto);
+        public Task<bool> UpdateStudent(Guid id, StudentForUpdateDto studentForUpdateDto);
+        public Task<bool> UpdateTeacher(Guid id, TeacherForUpdateDto teacherForUpdateDto);
+        public Task<bool> UpdateTask(Guid id, TaskForUpdateDto taskForUpdateDto);
         public Task UpdateTaskExecution(TasksExecution tasksExecution);
         public Task<bool> DeleteStudent(Guid id);
         public Task<bool> DeleteTeacher(Guid id);

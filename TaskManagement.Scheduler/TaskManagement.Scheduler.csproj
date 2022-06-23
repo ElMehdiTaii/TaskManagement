@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagement.Entities\TaskManagement.Entities.csproj" />
+    <ProjectReference Include="..\TaskManagement.Notifier\TaskManagement.Notifier.csproj" />
+    <ProjectReference Include="..\TaskManagement.Services.Contract\TaskManagement.Services.Contract.csproj" />
+  </ItemGroup>
+
 </Project>

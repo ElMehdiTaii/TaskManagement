@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
+      "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
       "projectName": "TaskManagement.Services.Contract",
-      "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
+      "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
       "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
-      "outputPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\obj\\",
+      "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,8 +57,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj": {
-              "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj"
+            "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj": {
+              "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj"
             }
           }
         }

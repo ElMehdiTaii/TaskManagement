@@ -1,34 +1,17 @@
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.csproj.AssemblyReference.cache
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.AssemblyInfoInputs.cache
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.AssemblyInfo.cs
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.csproj.CoreCompileInputs.cache
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Mongo.deps.json
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Mongo.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Mongo.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Entities.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Contract.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Contract.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Entities.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.csproj.CopyComplete
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\refint\TaskManagement.Services.Mongo.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\ref\TaskManagement.Services.Mongo.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Mongo.deps.json
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Mongo.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Mongo.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Entities.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Contract.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Contract.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Entities.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.csproj.AssemblyReference.cache
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.GeneratedMSBuildEditorConfig.editorconfig
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.AssemblyInfoInputs.cache
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.AssemblyInfo.cs
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.csproj.CoreCompileInputs.cache
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.csproj.CopyComplete
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\refint\TaskManagement.Services.Mongo.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\ref\TaskManagement.Services.Mongo.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Mongo.deps.json
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Mongo.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Mongo.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.csproj.AssemblyReference.cache
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.AssemblyInfoInputs.cache
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.AssemblyInfo.cs
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.csproj.CoreCompileInputs.cache
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\refint\TaskManagement.Services.Mongo.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\ref\TaskManagement.Services.Mongo.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Entities.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Contract.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Services.Contract.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\bin\Debug\net6.0\TaskManagement.Entities.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Services.Mongo\obj\Debug\net6.0\TaskManagement.Services.Mongo.csproj.CopyComplete

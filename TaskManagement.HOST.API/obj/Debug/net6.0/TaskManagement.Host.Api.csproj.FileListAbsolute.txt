@@ -1,190 +1,92 @@
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.csproj.AssemblyReference.cache
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.AssemblyInfoInputs.cache
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.AssemblyInfo.cs
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.csproj.CoreCompileInputs.cache
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\appsettings.json
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.exe
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.deps.json
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.runtimeconfig.json
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Entities.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Contract.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Entities.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Contract.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\scopedcss\bundle\TaskManagement.Host.Api.styles.css
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.csproj.CopyComplete
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\refint\TaskManagement.Host.Api.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.genruntimeconfig.cache
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\ref\TaskManagement.Host.Api.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.EF.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.EF.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\DnsClient.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Bson.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Driver.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Driver.Core.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\SharpCompress.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Business.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Mongo.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Business.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Mongo.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Faker.Net.6.0.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\FizzWare.NBuilder.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\de-DE\Faker.Net.6.0.resources.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\StackExchange.Redis.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\appsettings.Development.json
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\appsettings.json
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.exe
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.deps.json
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.runtimeconfig.json
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\AutoMapper.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\DnsClient.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Faker.Net.6.0.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Bson.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Driver.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Driver.Core.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\FizzWare.NBuilder.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\SharpCompress.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\StackExchange.Redis.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Drawing.Common.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Runtime.Caching.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Security.Permissions.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Windows.Extensions.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\de-DE\Faker.Net.6.0.resources.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Business.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Entities.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Contract.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.EF.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Mongo.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Business.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Entities.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Contract.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.EF.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Mongo.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.csproj.AssemblyReference.cache
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.GeneratedMSBuildEditorConfig.editorconfig
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.AssemblyInfoInputs.cache
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.AssemblyInfo.cs
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.csproj.CoreCompileInputs.cache
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.MvcApplicationPartsAssemblyInfo.cs
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.MvcApplicationPartsAssemblyInfo.cache
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\staticwebassets.build.json
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\staticwebassets.development.json
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\scopedcss\bundle\TaskManagement.Host.Api.styles.css
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.csproj.CopyComplete
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\refint\TaskManagement.Host.Api.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.genruntimeconfig.cache
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\ref\TaskManagement.Host.Api.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.csproj.AssemblyReference.cache
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.AssemblyInfoInputs.cache
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.AssemblyInfo.cs
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.csproj.CoreCompileInputs.cache
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\appsettings.json
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.exe
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.deps.json
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.runtimeconfig.json
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Host.Api.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\DnsClient.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Faker.Net.6.0.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\FizzWare.NBuilder.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\ServiceStack.Client.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\ServiceStack.Common.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\ServiceStack.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\ServiceStack.Interfaces.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\ServiceStack.Text.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\de-DE\Faker.Net.6.0.resources.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Business.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Entities.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Contract.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.EF.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Mongo.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Business.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Entities.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Contract.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.EF.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\TaskManagement.Services.Mongo.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\scopedcss\bundle\TaskManagement.Host.Api.styles.css
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.csproj.CopyComplete
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\refint\TaskManagement.Host.Api.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\TaskManagement.Host.Api.genruntimeconfig.cache
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\obj\Debug\net6.0\ref\TaskManagement.Host.Api.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Host.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

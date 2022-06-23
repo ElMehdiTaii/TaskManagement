@@ -7,7 +7,7 @@ using System.Text;
 using TaskManagement.Business.Interfaces;
 using TaskManagement.Entities.Dto;
 using TaskManagement.Entities.Models;
-using TaskManagement.Services.Contract.Services;
+using TaskManagement.Services.Contract.Interface;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -44,7 +44,7 @@ namespace TaskManagement.Host.Api.Controllers
                 return BadRequest("Invalid model object");
             }
 
-            if(await _service.UpdateTask(id,taskForUpdateDto))
+            if(await _service.UpdateTask((Guid)id,taskForUpdateDto))
             
                 return Ok("Task Updated Successfully");
             

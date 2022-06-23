@@ -1,7 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using TaskManagement.Services.Contract.Services;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TaskManagement.Services.Contract.Interface;
+using TaskManagement.Services.EF.Repository;
+using TaskManagement.Services.EF.Services;
 
 namespace TaskManagement.Services.EF
 {
@@ -12,7 +19,7 @@ namespace TaskManagement.Services.EF
 
             services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
 
-            services.AddDbContext<RepositoryContext>(options =>
+            services.AddDbContext<EfContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("ConnectionString")));
 
             return services;

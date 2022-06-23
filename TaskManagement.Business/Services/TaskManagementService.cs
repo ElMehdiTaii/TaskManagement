@@ -1,12 +1,10 @@
 ﻿using AutoMapper;
-using FizzWare.NBuilder;
 using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
 using System.Text;
 using TaskManagement.Entities.Dto;
 using TaskManagement.Entities.Models;
-using TaskManagement.Services.Contract.Services;
-using static TaskManagement.Entities.Enums.Enums;
+using TaskManagement.Services.Contract.Interface;
 
 namespace TaskManagement.Business.Interfaces
 {
@@ -19,7 +17,7 @@ namespace TaskManagement.Business.Interfaces
 
         private readonly IDistributedCache _distributedCache;
 
-        public TaskManagementService(IRepositoryWrapper repo, IMapper mapper,IDistributedCache distributedCache)
+        public TaskManagementService(IRepositoryWrapper repo, IMapper mapper, IDistributedCache distributedCache)
         {
             _repo = repo;
 
@@ -29,64 +27,74 @@ namespace TaskManagement.Business.Interfaces
         }
         public async Task AddRandomDataTask(int table)
         {
-            var daysGenerator = new RandomGenerator();
-            if (table == (int)TableName.Teachers)
-            {
-                var teachers = Builder<Teachers>.CreateListOfSize(500)
-                        .All()
-                            .With(c => c.Id = new Guid())
-                            .With(c => c.MainSubjectTeaching = Faker.Lorem.Paragraph())
-                            .With(c => c.Name = Faker.Name.FullName())
-                            .With(c => c.BirthDate = DateTime.Now.AddDays(-daysGenerator.Next(1, 100)))
-                        .Build();
+            //var daysGenerator = new RandomGenerator();
+            //if (table == (int)TableName.Teachers)
+            //{
+            //    var teachers = Builder<Teachers>.CreateListOfSize(500)
+            //            .All()
+            //                .With(c => c.Id = new Guid())
+            //                .With(c => c.MainSubjectTeaching = Faker.Lorem.Paragraph())
+            //                .With(c => c.Name = Faker.Name.FullName())
+            //                .With(c => c.BirthDate = DateTime.Now.AddDays(-daysGenerator.Next(1, 100)))
+            //            .Build();
 
-                await _repo.Teacher.AddMany(teachers);
-            }
-            else if (table == (int)TableName.Students)
-            {
-                var students = Builder<Students>.CreateListOfSize(500)
-                        .All()
-                            .With(c => c.Id = new Guid())
-                            .With(c => c.Name = Faker.Name.FullName())
-                            .With(c => c.YearOfStudy = DateTime.Now.AddYears(-daysGenerator.Next(1, 100)).Year)
-                            .With(c => c.BirthDate = DateTime.Now.AddDays(-daysGenerator.Next(1, 100)))
-                        .Build();
+            //    await _repo.Teacher.AddMany(teachers);
+            //}
+            //else if (table == (int)TableName.Students)
+            //{
+            //    var students = Builder<Students>.CreateListOfSize(500)
+            //            .All()
+            //                .With(c => c.Id = new Guid())
+            //                .With(c => c.Name = Faker.Name.FullName())
+            //                .With(c => c.YearOfStudy = DateTime.Now.AddYears(-daysGenerator.Next(1, 100)).Year)
+            //                .With(c => c.BirthDate = DateTime.Now.AddDays(-daysGenerator.Next(1, 100)))
+            //            .Build();
 
-                await _repo.Student.AddMany(students);
-            }
+            //    await _repo.Student.AddMany(students);
+            //}
         }
 
         public async Task DeleteAllDataTask(int table)
         {
-            if (table == (int)TableName.Students)
-            {
+            //if (table == (int)TableName.Students)
+            //{
 
-                await _repo.Student.DeleteMany(a => a.Id != Guid.Empty);
-            }
-            else if (table == (int)TableName.Teachers)
-            {
-                await _repo.Teacher.DeleteMany(a => a.Id != Guid.Empty);
-            }
+            //    await _repo.Student.DeleteMany(a => a.Id != Guid.Empty);
+            //}
+            //else if (table == (int)TableName.Teachers)
+            //{
+            //    await _repo.Teacher.DeleteMany(a => a.Id != Guid.Empty);
+            //}
         }
 
         public async Task<bool> DeleteTeacher(Guid id)
         {
-            if ( _repo.Teacher.Delete(id) != null)
+            _repo.Teacher.Remove(id);
+            if (await _repo.SaveChanges())
+
                 return true;
+
             return false;
+
         }
 
         public async Task<bool> DeleteStudent(Guid id)
         {
-            if (await _repo.Student.Delete(id) != null)
+            _repo.Student.Remove(id);
+            if (await _repo.SaveChanges())
+
                 return true;
+
             return false;
         }
 
         public async Task<bool> DeleteTask(Guid id)
         {
-            if (await _repo.Task.Delete(id) != null)
+            _repo.Task.Remove(id);
+            if (await _repo.SaveChanges())
+
                 return true;
+
             return false;
         }
 
@@ -105,7 +113,7 @@ namespace TaskManagement.Business.Interfaces
             }
             else
             {
-                studentLists = _repo.Student.GetAll().ToList();
+                studentLists = (await _repo.Student.GetAll()).ToList();
                 serializedTeacherList = JsonConvert.SerializeObject(studentLists);
                 redisStudentList = Encoding.UTF8.GetBytes(serializedTeacherList);
                 var options = new DistributedCacheEntryOptions()
@@ -116,9 +124,29 @@ namespace TaskManagement.Business.Interfaces
             return studentLists;
         }
 
-        public IEnumerable<Tasks> GetAllTasks()
+        public async Task<IEnumerable<Tasks>> GetAllTasks()
         {
-            return _repo.Task.GetAll();
+            var cacheKey = "taskLists";
+            string serializedTaskList;
+            var taskLists = new List<Tasks>();
+            var redisTaskList = await _distributedCache.GetAsync(cacheKey);
+
+            if (redisTaskList != null)
+            {
+                serializedTaskList = Encoding.UTF8.GetString(redisTaskList);
+                taskLists = JsonConvert.DeserializeObject<List<Tasks>>(serializedTaskList);
+            }
+            else
+            {
+                taskLists = (await _repo.Task.GetAll()).ToList();
+                serializedTaskList = JsonConvert.SerializeObject(taskLists);
+                redisTaskList = Encoding.UTF8.GetBytes(serializedTaskList);
+                var options = new DistributedCacheEntryOptions()
+                    .SetAbsoluteExpiration(DateTime.Now.AddMinutes(10))
+                    .SetSlidingExpiration(TimeSpan.FromMinutes(2));
+                await _distributedCache.SetAsync(cacheKey, redisTaskList, options);
+            }
+            return taskLists;
         }
 
         public IEnumerable<TasksExecution> GetAllTasksExecutions()
@@ -140,7 +168,7 @@ namespace TaskManagement.Business.Interfaces
             }
             else
             {
-                teacherLists = _repo.Teacher.GetAll().ToList();
+                teacherLists = (await _repo.Teacher.GetAll()).ToList();
                 serializedTeacherList = JsonConvert.SerializeObject(teacherLists);
                 redisTeacherList = Encoding.UTF8.GetBytes(serializedTeacherList);
                 var options = new DistributedCacheEntryOptions()
@@ -151,9 +179,9 @@ namespace TaskManagement.Business.Interfaces
             return teacherLists;
         }
 
-        public async Task<bool> UpdateStudent(Guid? id, StudentForUpdateDto studentForUpdateDto)
+        public async Task<bool> UpdateStudent(Guid id, StudentForUpdateDto studentForUpdateDto)
         {
-            var student = await _repo.Student.GetById((Guid)id);
+            var student = await _repo.Student.GetById(id);
 
             if (student == null)
             {
@@ -162,14 +190,18 @@ namespace TaskManagement.Business.Interfaces
 
             _mapper.Map(studentForUpdateDto, student);
 
-            if (await _repo.Student.Update(student) != null)
+            _repo.Student.Update(student);
+
+            if (await _repo.SaveChanges())
+
                 return true;
+
             return false;
         }
 
-        public async Task<bool> UpdateTask(Guid? id , TaskForUpdateDto taskForUpdateDto)
+        public async Task<bool> UpdateTask(Guid id, TaskForUpdateDto taskForUpdateDto)
         {
-            var task = await _repo.Task.GetById((Guid)id);
+            var task = await _repo.Task.GetById(id);
 
             if (task == null)
             {
@@ -178,7 +210,9 @@ namespace TaskManagement.Business.Interfaces
 
             _mapper.Map(taskForUpdateDto, task);
 
-            if (await _repo.Task.Update(task) != null)
+            _repo.Task.Update(task);
+
+            if (await _repo.SaveChanges())
 
                 return true;
 
@@ -190,9 +224,9 @@ namespace TaskManagement.Business.Interfaces
             throw new NotImplementedException();
         }
 
-        public async Task<bool> UpdateTeacher(Guid? id, TeacherForUpdateDto teacherForUpdateDto)
+        public async Task<bool> UpdateTeacher(Guid id, TeacherForUpdateDto teacherForUpdateDto)
         {
-            var teacher = await _repo.Teacher.GetById((Guid)id);
+            var teacher = await _repo.Teacher.GetById(id);
 
             if (teacher == null)
             {
@@ -201,7 +235,9 @@ namespace TaskManagement.Business.Interfaces
 
             _mapper.Map(teacherForUpdateDto, teacher);
 
-            if (await _repo.Teacher.Update(teacher) != null)
+            _repo.Teacher.Update(teacher);
+
+            if (await _repo.SaveChanges())
                 return true;
             return false;
         }
@@ -217,7 +253,9 @@ namespace TaskManagement.Business.Interfaces
 
             _mapper.Map(taskForCreateDto, task);
 
-            if (await _repo.Task.Add(task) != null)
+            _repo.Task.Add(task);
+
+            if (await _repo.SaveChanges())
                 return true;
             return false;
         }
@@ -228,8 +266,12 @@ namespace TaskManagement.Business.Interfaces
 
             _mapper.Map(teacherForCreateDto, teacher);
 
-            if (await _repo.Teacher.Add(teacher) != null)
+            _repo.Teacher.Add(teacher);
+
+            if (await _repo.SaveChanges())
+
                 return true;
+
             return false;
         }
 
@@ -239,8 +281,12 @@ namespace TaskManagement.Business.Interfaces
 
             _mapper.Map(studentForCreateDto, student);
 
-            if (await _repo.Student.Add(student) != null)
+            _repo.Student.Add(student);
+
+            if (await _repo.SaveChanges())
+
                 return true;
+
             return false;
         }
     }

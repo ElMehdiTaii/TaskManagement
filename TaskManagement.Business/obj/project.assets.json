@@ -14,7 +14,7 @@
           "lib/netstandard2.1/AutoMapper.dll": {}
         }
       },
-      "DnsClient/1.4.0": {
+      "DnsClient/1.3.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/DnsClient.dll": {}
@@ -131,11 +131,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/6.0.5": {
+      "Microsoft.EntityFrameworkCore/6.0.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.5",
-          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.5",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.6",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.6",
           "Microsoft.Extensions.Caching.Memory": "6.0.1",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
@@ -147,9 +147,12 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {}
+        },
+        "build": {
+          "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/6.0.5": {
+      "Microsoft.EntityFrameworkCore.Abstractions/6.0.6": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -158,7 +161,7 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/6.0.5": {
+      "Microsoft.EntityFrameworkCore.Analyzers/6.0.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -167,10 +170,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/6.0.5": {
+      "Microsoft.EntityFrameworkCore.Relational/6.0.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.5",
+          "Microsoft.EntityFrameworkCore": "6.0.6",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
         },
         "compile": {
@@ -180,11 +183,11 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/6.0.5": {
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.4",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.5"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.6"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -259,6 +262,21 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {}
         }
       },
       "Microsoft.Extensions.Logging/6.0.0": {
@@ -387,7 +405,7 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
-      "Microsoft.NETCore.Platforms/3.1.0": {
+      "Microsoft.NETCore.Platforms/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -419,10 +437,10 @@
           }
         }
       },
-      "Microsoft.Win32.SystemEvents/4.7.0": {
+      "Microsoft.Win32.SystemEvents/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.1.0"
+          "Microsoft.NETCore.Platforms": "5.0.0"
         },
         "compile": {
           "ref/netstandard2.0/_._": {}
@@ -437,46 +455,43 @@
           }
         }
       },
-      "MongoDB.Bson/2.13.2": {
+      "MongoDB.Bson/2.11.2": {
         "type": "package",
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
-        },
         "compile": {
-          "lib/netstandard2.1/MongoDB.Bson.dll": {}
+          "lib/netstandard2.0/MongoDB.Bson.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/MongoDB.Bson.dll": {}
+          "lib/netstandard2.0/MongoDB.Bson.dll": {}
         }
       },
-      "MongoDB.Driver/2.13.2": {
+      "MongoDB.Driver/2.11.2": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.13.2",
-          "MongoDB.Driver.Core": "2.13.2",
-          "MongoDB.Libmongocrypt": "1.2.2"
+          "MongoDB.Bson": "2.11.2",
+          "MongoDB.Driver.Core": "2.11.2",
+          "MongoDB.Libmongocrypt": "1.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/MongoDB.Driver.dll": {}
+          "lib/netstandard2.0/MongoDB.Driver.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/MongoDB.Driver.dll": {}
+          "lib/netstandard2.0/MongoDB.Driver.dll": {}
         }
       },
-      "MongoDB.Driver.Core/2.13.2": {
+      "MongoDB.Driver.Core/2.11.2": {
         "type": "package",
         "dependencies": {
-          "DnsClient": "1.4.0",
-          "MongoDB.Bson": "2.13.2",
-          "MongoDB.Libmongocrypt": "1.2.2",
+          "DnsClient": "1.3.1",
+          "MongoDB.Bson": "2.11.2",
+          "MongoDB.Libmongocrypt": "1.0.0",
           "SharpCompress": "0.23.0",
-          "System.Buffers": "4.5.1"
+          "System.Buffers": "4.4.0"
         },
         "compile": {
-          "lib/netstandard2.1/MongoDB.Driver.Core.dll": {}
+          "lib/netstandard2.0/MongoDB.Driver.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/MongoDB.Driver.Core.dll": {}
+          "lib/netstandard2.0/MongoDB.Driver.Core.dll": {}
         },
         "contentFiles": {
           "contentFiles/any/any/_._": {
@@ -503,37 +518,19 @@
           }
         }
       },
-      "MongoDB.Libmongocrypt/1.2.2": {
+      "MongoDB.Libmongocrypt/1.0.0": {
         "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
         "compile": {
-          "lib/netstandard2.1/MongoDB.Libmongocrypt.dll": {}
+          "lib/netstandard1.5/MongoDB.Libmongocrypt.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/MongoDB.Libmongocrypt.dll": {}
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
+          "lib/netstandard1.5/MongoDB.Libmongocrypt.dll": {}
         },
         "build": {
           "build/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/linux/native/libmongocrypt.so": {
-            "assetType": "native",
-            "rid": "linux"
-          },
-          "runtimes/osx/native/libmongocrypt.dylib": {
-            "assetType": "native",
-            "rid": "osx"
-          },
-          "runtimes/win/native/mongocrypt.dll": {
-            "assetType": "native",
-            "rid": "win"
-          }
         }
       },
       "NBuilder/6.1.0": {
@@ -584,6 +581,75 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "ServiceStack.Client.Core/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "ServiceStack.Interfaces.Core": "6.1.0",
+          "ServiceStack.Text.Core": "6.1.0"
+        },
+        "compile": {
+          "lib/net6.0/ServiceStack.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Client.dll": {}
+        }
+      },
+      "ServiceStack.Common.Core/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces.Core": "6.1.0",
+          "ServiceStack.Text.Core": "6.1.0",
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/net6.0/ServiceStack.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Common.dll": {}
+        }
+      },
+      "ServiceStack.Core/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Client.Core": "6.1.0",
+          "ServiceStack.Common.Core": "6.1.0",
+          "ServiceStack.Interfaces.Core": "6.1.0",
+          "ServiceStack.Text.Core": "6.1.0",
+          "System.Drawing.Common": "5.0.2"
+        },
+        "compile": {
+          "lib/net6.0/ServiceStack.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "ServiceStack.Interfaces.Core/6.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Text.Core/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/net6.0/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Text.dll": {}
+        }
+      },
       "SharpCompress/0.23.0": {
         "type": "package",
         "dependencies": {
@@ -596,7 +662,7 @@
           "lib/netstandard2.0/SharpCompress.dll": {}
         }
       },
-      "System.Buffers/4.5.1": {
+      "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -648,17 +714,16 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Drawing.Common/4.7.0": {
+      "System.Drawing.Common/5.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.Win32.SystemEvents": "4.7.0"
+          "Microsoft.Win32.SystemEvents": "5.0.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/_._": {}
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
@@ -682,6 +747,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
         }
       },
       "System.Runtime.Caching/4.7.0": {
@@ -858,8 +932,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
+          "Microsoft.EntityFrameworkCore": "6.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "TaskManagement.Entities": "1.0.0",
           "TaskManagement.Services.Contract": "1.0.0"
         },
         "compile": {
@@ -876,7 +952,8 @@
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
-          "MongoDB.Driver": "2.13.2",
+          "MongoDB.Driver": "2.11.2",
+          "ServiceStack.Core": "6.1.0",
           "TaskManagement.Services.Contract": "1.0.0"
         },
         "compile": {
@@ -904,14 +981,14 @@
         "lib/netstandard2.1/AutoMapper.xml"
       ]
     },
-    "DnsClient/1.4.0": {
-      "sha512": "CO1NG1zQdV0nEAXmr/KppLZ0S1qkaPwV0kPX5YPgmYBtrBVh1XMYHM54IXy3RBJu1k4thFtpzwo4HNHqxiuFYw==",
+    "DnsClient/1.3.1": {
+      "sha512": "b9XczgqSjs3dd+OlV799jn+LXxdfirln1q36GKjs3QwWBhjhgIvgHLEG5s2VrBLcP4ogQjtA0PZ5+AmRJ35Vhg==",
       "type": "package",
-      "path": "dnsclient/1.4.0",
+      "path": "dnsclient/1.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dnsclient.1.4.0.nupkg.sha512",
+        "dnsclient.1.3.1.nupkg.sha512",
         "dnsclient.nuspec",
         "icon.png",
         "lib/net45/DnsClient.dll",
@@ -1147,73 +1224,74 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
       ]
     },
-    "Microsoft.EntityFrameworkCore/6.0.5": {
-      "sha512": "hP5J3EvpVdZmCn1D3ovedphvZrIn3OXZaBZfEnCkSCqqbqAu6xzwbNqwRkik0y4R6zOOf4eLh1riwjy4eAUlZA==",
+    "Microsoft.EntityFrameworkCore/6.0.6": {
+      "sha512": "icy5aMdp9R984RGmbgZvcjEX9HYcwqF+6HXLFydL7PJBlc9eVVPRdBSFS9mCFwXyFl24x7xUORhZx/cSLvwH7Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/6.0.5",
+      "path": "microsoft.entityframeworkcore/6.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/6.0.5": {
-      "sha512": "Q3/fKW6XCTfnDk4fYP2BJZi84cD2SuCPkP3A3QqxvCQcXbX90bfSLzVIsoMXzigHGJgZUJ+Un7QodT5Nvk0+Eg==",
+    "Microsoft.EntityFrameworkCore.Abstractions/6.0.6": {
+      "sha512": "Z4Ep2LDUSSNjriin0wKH4jF4vsjQ2ICwC9/5ntDVShQqy1C8AmmE5oK25jfthEVSIosDhJoWCescV3xKa9kcpg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/6.0.5",
+      "path": "microsoft.entityframeworkcore.abstractions/6.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/6.0.5": {
-      "sha512": "QUeDIhs+O+MoDEc3k60mNyVDbwyDURCqZQlZoKShuZUcSfXSrDMbHKuFSxBIDNQBt092qSjfnwf7w0Ua/IB3Zw==",
+    "Microsoft.EntityFrameworkCore.Analyzers/6.0.6": {
+      "sha512": "EqBhW1bJnDw42CIGf/Dh1TbYXFUh53pghb5KGMTrxcNU6Ntfd8UEHs7LntZrMQrECrkhW7zBvfGvv9SbxOj5VQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/6.0.5",
+      "path": "microsoft.entityframeworkcore.analyzers/6.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/6.0.5": {
-      "sha512": "vhAQizlAgvPfurkh9XysNaFc/g3WPXtSka3Y1rXuQdnT//p16CDKt9lO9h+rYmooD+cA7TijSxwqck4GApDT/Q==",
+    "Microsoft.EntityFrameworkCore.Relational/6.0.6": {
+      "sha512": "sMFh4InretduD2ppxRJ9aArwDgg1EqUMp8iXaMoXn64eGW+8hyvuZGD3VdwJF6qQJWd4B6ns1/zkASR7MHOF2g==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/6.0.5",
+      "path": "microsoft.entityframeworkcore.relational/6.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.6.0.6.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/6.0.5": {
-      "sha512": "fBBG1AvrqPSvTEWyg9W18F/obiV7Soi/RItwBt48kjte1heRaogCsKj8KBnJQACM/8L+NAhyKp3BH12nN7+yDA==",
+    "Microsoft.EntityFrameworkCore.SqlServer/6.0.6": {
+      "sha512": "I+IDo9fWRj1/jqtIsqh9C6OzLvN5QACdNVtj0p115k+FDe7xpSqapMZPRf7O37T7fzCamYO9QuNgaOqe7O8j4w==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/6.0.5",
+      "path": "microsoft.entityframeworkcore.sqlserver/6.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.6.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.6.0.6.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -1321,6 +1399,25 @@
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Http/6.0.0": {
+      "sha512": "15+pa2G0bAMHbHewaQIdr/y6ag2H3yh4rd9hTXavtWDzQBkvpe2RMqFg8BxDpcQWssmjmBApGPcw93QRz6YcMg==",
+      "type": "package",
+      "path": "microsoft.extensions.http/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Http.dll",
+        "lib/net461/Microsoft.Extensions.Http.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.xml",
+        "microsoft.extensions.http.6.0.0.nupkg.sha512",
+        "microsoft.extensions.http.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -1576,17 +1673,18 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.NETCore.Platforms/3.1.0": {
-      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "sha512": "VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/3.1.0",
+      "path": "microsoft.netcore.platforms/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.5.0.0.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
@@ -1640,25 +1738,24 @@
         "version.txt"
       ]
     },
-    "Microsoft.Win32.SystemEvents/4.7.0": {
-      "sha512": "mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "sha512": "Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
       "type": "package",
-      "path": "microsoft.win32.systemevents/4.7.0",
+      "path": "microsoft.win32.systemevents/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/Microsoft.Win32.SystemEvents.dll",
         "lib/net461/Microsoft.Win32.SystemEvents.xml",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+        "microsoft.win32.systemevents.5.0.0.nupkg.sha512",
         "microsoft.win32.systemevents.nuspec",
         "ref/net461/Microsoft.Win32.SystemEvents.dll",
         "ref/net461/Microsoft.Win32.SystemEvents.xml",
-        "ref/net472/Microsoft.Win32.SystemEvents.dll",
-        "ref/net472/Microsoft.Win32.SystemEvents.xml",
         "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
         "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
         "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
@@ -1669,10 +1766,10 @@
         "version.txt"
       ]
     },
-    "MongoDB.Bson/2.13.2": {
-      "sha512": "qY9271GFCYLA8OB3MdQC8clJh9wnh65gcxUa5Skwh2xYryv21YAHx/VOvv4ILpkb1NhIVgy3LBQhVBldwLaqNg==",
+    "MongoDB.Bson/2.11.2": {
+      "sha512": "7vJoaUKPPnW6Ej0r4UHV8DeYD0/SKk/73WlDfc5JMRJRjTj3jRUtGIXwpaFYq3wT8MRHmLwbM/KvkEAb7deHRw==",
       "type": "package",
-      "path": "mongodb.bson/2.13.2",
+      "path": "mongodb.bson/2.11.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1683,17 +1780,15 @@
         "lib/netstandard1.5/MongoDB.Bson.xml",
         "lib/netstandard2.0/MongoDB.Bson.dll",
         "lib/netstandard2.0/MongoDB.Bson.xml",
-        "lib/netstandard2.1/MongoDB.Bson.dll",
-        "lib/netstandard2.1/MongoDB.Bson.xml",
-        "mongodb.bson.2.13.2.nupkg.sha512",
+        "mongodb.bson.2.11.2.nupkg.sha512",
         "mongodb.bson.nuspec",
         "packageIcon.png"
       ]
     },
-    "MongoDB.Driver/2.13.2": {
-      "sha512": "4+fczDJxxx7HPWY1n75hzHCOZiAhpb1Tjpkvj+c3lAeBGmSCvh5THcadxZ7b97F6OdHxz4xy07mIiwfZlPuQVQ==",
+    "MongoDB.Driver/2.11.2": {
+      "sha512": "4DT/VcE/6sw73tInWmQ1C92p1kHgKiuRx/DgYRtaUUILRaAdL8X1Gl3f8FXNMwH2rzH+KhOYCliYK7/+XWWZIw==",
       "type": "package",
-      "path": "mongodb.driver/2.13.2",
+      "path": "mongodb.driver/2.11.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1704,17 +1799,15 @@
         "lib/netstandard1.5/MongoDB.Driver.xml",
         "lib/netstandard2.0/MongoDB.Driver.dll",
         "lib/netstandard2.0/MongoDB.Driver.xml",
-        "lib/netstandard2.1/MongoDB.Driver.dll",
-        "lib/netstandard2.1/MongoDB.Driver.xml",
-        "mongodb.driver.2.13.2.nupkg.sha512",
+        "mongodb.driver.2.11.2.nupkg.sha512",
         "mongodb.driver.nuspec",
         "packageIcon.png"
       ]
     },
-    "MongoDB.Driver.Core/2.13.2": {
-      "sha512": "VY1ayl9yXcZZ0VoXftZD3quHBgdn2EEMmuKlz4V6z2+8grN2svdASwX9E4p0DmOAAX8Wd5B5lYsUifrbo4M5xA==",
+    "MongoDB.Driver.Core/2.11.2": {
+      "sha512": "e5/q9bqGEfGSsAq9Gn6+qWKEPs0s/U41tgfcWNtwAEpyg/btWO4RkeV0Jv8tG/KaXey1E151npmDPcwTrg7qjQ==",
       "type": "package",
-      "path": "mongodb.driver.core/2.13.2",
+      "path": "mongodb.driver.core/2.11.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1733,18 +1826,13 @@
         "contentFiles/any/netstandard2.0/Core/Compression/Snappy/lib/win/snappy32.dll",
         "contentFiles/any/netstandard2.0/Core/Compression/Snappy/lib/win/snappy64.dll",
         "contentFiles/any/netstandard2.0/Core/Compression/Zstandard/lib/win/libzstd.dll",
-        "contentFiles/any/netstandard2.1/Core/Compression/Snappy/lib/win/snappy32.dll",
-        "contentFiles/any/netstandard2.1/Core/Compression/Snappy/lib/win/snappy64.dll",
-        "contentFiles/any/netstandard2.1/Core/Compression/Zstandard/lib/win/libzstd.dll",
         "lib/net452/MongoDB.Driver.Core.dll",
         "lib/net452/MongoDB.Driver.Core.xml",
         "lib/netstandard1.5/MongoDB.Driver.Core.dll",
         "lib/netstandard1.5/MongoDB.Driver.Core.xml",
         "lib/netstandard2.0/MongoDB.Driver.Core.dll",
         "lib/netstandard2.0/MongoDB.Driver.Core.xml",
-        "lib/netstandard2.1/MongoDB.Driver.Core.dll",
-        "lib/netstandard2.1/MongoDB.Driver.Core.xml",
-        "mongodb.driver.core.2.13.2.nupkg.sha512",
+        "mongodb.driver.core.2.11.2.nupkg.sha512",
         "mongodb.driver.core.nuspec",
         "packageIcon.png",
         "runtimes/win/native/libzstd.dll",
@@ -1752,39 +1840,20 @@
         "runtimes/win/native/snappy64.dll"
       ]
     },
-    "MongoDB.Libmongocrypt/1.2.2": {
-      "sha512": "pKrlKJk4wem4MyfkaMqj+sqJ+RwUDnqnt76/Xwm5DDjMzEU5QtDkzQOLq5bVwFhNgC8LMn6Hr22tl5WsmN5+AA==",
+    "MongoDB.Libmongocrypt/1.0.0": {
+      "sha512": "zkcsra5riDiKXqOiCKskycakpbO5RYkuUWG+z2AZML3A4NShvAs/D3InwkxH0OcbjZQOWo763Hjdmhr0AaylcA==",
       "type": "package",
-      "path": "mongodb.libmongocrypt/1.2.2",
+      "path": "mongodb.libmongocrypt/1.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "License.txt",
         "build/MongoDB.Libmongocrypt.targets",
-        "content/libmongocrypt.dylib",
-        "content/libmongocrypt.so",
-        "content/mongocrypt.dll",
-        "contentFiles/any/net452/libmongocrypt.dylib",
-        "contentFiles/any/net452/libmongocrypt.so",
-        "contentFiles/any/net452/mongocrypt.dll",
-        "contentFiles/any/netstandard1.5/libmongocrypt.dylib",
-        "contentFiles/any/netstandard1.5/libmongocrypt.so",
-        "contentFiles/any/netstandard1.5/mongocrypt.dll",
-        "contentFiles/any/netstandard2.0/libmongocrypt.dylib",
-        "contentFiles/any/netstandard2.0/libmongocrypt.so",
-        "contentFiles/any/netstandard2.0/mongocrypt.dll",
-        "contentFiles/any/netstandard2.1/libmongocrypt.dylib",
-        "contentFiles/any/netstandard2.1/libmongocrypt.so",
-        "contentFiles/any/netstandard2.1/mongocrypt.dll",
         "lib/net452/MongoDB.Libmongocrypt.dll",
         "lib/netstandard1.5/MongoDB.Libmongocrypt.dll",
-        "lib/netstandard2.0/MongoDB.Libmongocrypt.dll",
-        "lib/netstandard2.1/MongoDB.Libmongocrypt.dll",
-        "mongodb.libmongocrypt.1.2.2.nupkg.sha512",
+        "mongodb.libmongocrypt.1.0.0.nupkg.sha512",
         "mongodb.libmongocrypt.nuspec",
-        "runtimes/linux/native/libmongocrypt.so",
-        "runtimes/osx/native/libmongocrypt.dylib",
-        "runtimes/win/native/mongocrypt.dll"
+        "x64/native/windows/mongocrypt.dll"
       ]
     },
     "NBuilder/6.1.0": {
@@ -1976,6 +2045,81 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
+    "ServiceStack.Client.Core/6.1.0": {
+      "sha512": "5eoPbn8TwH/DwhybJ13jcPLaRhlXvrpmNu/47hMjXGujTHO6x34fSlNFqFzzfdCszAIGMFqois6/sP7rdh3TWg==",
+      "type": "package",
+      "path": "servicestack.client.core/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/ServiceStack.Client.dll",
+        "lib/net6.0/ServiceStack.Client.xml",
+        "lib/netstandard2.0/ServiceStack.Client.dll",
+        "lib/netstandard2.0/ServiceStack.Client.xml",
+        "servicestack.client.core.6.1.0.nupkg.sha512",
+        "servicestack.client.core.nuspec"
+      ]
+    },
+    "ServiceStack.Common.Core/6.1.0": {
+      "sha512": "+tFU+8cd2QO4ZUGyFSww4Ou2WpEmTPAEosCzz1QlGjfiug6r6009f1xesk5xvxv13dsFh76vxVOPtxYd8MCOIQ==",
+      "type": "package",
+      "path": "servicestack.common.core/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/ServiceStack.Common.dll",
+        "lib/net6.0/ServiceStack.Common.xml",
+        "lib/netstandard2.0/ServiceStack.Common.dll",
+        "lib/netstandard2.0/ServiceStack.Common.xml",
+        "servicestack.common.core.6.1.0.nupkg.sha512",
+        "servicestack.common.core.nuspec"
+      ]
+    },
+    "ServiceStack.Core/6.1.0": {
+      "sha512": "zVsYuy8yjNyC2Fy3tAumfOvkENUIj563M335/eD4YglvglzHxiheHbd/72djonxK/F11BbYUqUyYCxsQRRdI+A==",
+      "type": "package",
+      "path": "servicestack.core/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/ServiceStack.dll",
+        "lib/net6.0/ServiceStack.xml",
+        "lib/netstandard2.0/ServiceStack.dll",
+        "lib/netstandard2.0/ServiceStack.xml",
+        "servicestack.core.6.1.0.nupkg.sha512",
+        "servicestack.core.nuspec"
+      ]
+    },
+    "ServiceStack.Interfaces.Core/6.1.0": {
+      "sha512": "lidPpS8qHKNLtnPO1qk/wDKcKQR44AfA59BWFRppPvogXBQmx/9jwaBe7Cp8hu17cw0sbMtQDRQKVlqL12nKqg==",
+      "type": "package",
+      "path": "servicestack.interfaces.core/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/ServiceStack.Interfaces.dll",
+        "lib/net6.0/ServiceStack.Interfaces.xml",
+        "lib/netstandard2.0/ServiceStack.Interfaces.dll",
+        "lib/netstandard2.0/ServiceStack.Interfaces.xml",
+        "servicestack.interfaces.core.6.1.0.nupkg.sha512",
+        "servicestack.interfaces.core.nuspec"
+      ]
+    },
+    "ServiceStack.Text.Core/6.1.0": {
+      "sha512": "U301s3gMCjST1BTkTA5YH22HzpMbwHVH0StCRAJWX750s/rob7DKObSWEPug8hYP649HObYYBOhZZ52KSvfJ0g==",
+      "type": "package",
+      "path": "servicestack.text.core/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/ServiceStack.Text.dll",
+        "lib/net6.0/ServiceStack.Text.xml",
+        "lib/netstandard2.0/ServiceStack.Text.dll",
+        "lib/netstandard2.0/ServiceStack.Text.xml",
+        "servicestack.text.core.6.1.0.nupkg.sha512",
+        "servicestack.text.core.nuspec"
+      ]
+    },
     "SharpCompress/0.23.0": {
       "sha512": "HBbT47JHvNrsZX2dTBzUBOSzBt+EmIRGLIBkbxcP6Jef7DB4eFWQX5iHWV3Nj7hABFPCjISrZ8s0z72nF2zFHQ==",
       "type": "package",
@@ -1992,32 +2136,26 @@
         "sharpcompress.nuspec"
       ]
     },
-    "System.Buffers/4.5.1": {
-      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
       "type": "package",
-      "path": "system.buffers/4.5.1",
+      "path": "system.buffers/4.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Buffers.dll",
-        "lib/net461/System.Buffers.xml",
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.1/System.Buffers.dll",
         "lib/netstandard1.1/System.Buffers.xml",
         "lib/netstandard2.0/System.Buffers.dll",
         "lib/netstandard2.0/System.Buffers.xml",
-        "lib/uap10.0.16299/_._",
-        "ref/net45/System.Buffers.dll",
-        "ref/net45/System.Buffers.xml",
         "ref/netcoreapp2.0/_._",
         "ref/netstandard1.1/System.Buffers.dll",
         "ref/netstandard1.1/System.Buffers.xml",
         "ref/netstandard2.0/System.Buffers.dll",
         "ref/netstandard2.0/System.Buffers.xml",
-        "ref/uap10.0.16299/_._",
-        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.4.4.0.nupkg.sha512",
         "system.buffers.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -2094,18 +2232,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Drawing.Common/4.7.0": {
-      "sha512": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+    "System.Drawing.Common/5.0.2": {
+      "sha512": "rvr/M1WPf24ljpvvrVd74+NdjRUJu1bBkspkZcnzSZnmAUQWSvanlQ0k/hVHk+cHufZbZfu7vOh/vYc0q5Uu/A==",
       "type": "package",
-      "path": "system.drawing.common/4.7.0",
+      "path": "system.drawing.common/5.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net461/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.xml",
         "lib/netstandard2.0/System.Drawing.Common.dll",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
@@ -2127,7 +2268,7 @@
         "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
         "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
         "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "system.drawing.common.4.7.0.nupkg.sha512",
+        "system.drawing.common.5.0.2.nupkg.sha512",
         "system.drawing.common.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -2148,6 +2289,29 @@
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
         "system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Runtime.Caching/4.7.0": {
@@ -2545,11 +2709,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj",
+      "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj",
       "projectName": "TaskManagement.Business",
-      "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj",
+      "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj",
       "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
-      "outputPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\obj\\",
+      "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2569,11 +2733,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj": {
-              "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj"
+            "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj": {
+              "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj"
             },
-            "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj": {
-              "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj"
+            "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj": {
+              "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj"
             }
           }
         }

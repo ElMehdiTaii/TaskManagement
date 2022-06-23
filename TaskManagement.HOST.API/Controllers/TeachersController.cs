@@ -8,7 +8,7 @@ using System.Text;
 using TaskManagement.Business.Interfaces;
 using TaskManagement.Entities.Dto;
 using TaskManagement.Entities.Models;
-using TaskManagement.Services.Contract.Services;
+using TaskManagement.Services.Contract.Interface;
 
 namespace TaskManagement.Host.Api.Controllers
 {

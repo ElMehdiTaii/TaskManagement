@@ -1,24 +1,12 @@
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.csproj.AssemblyReference.cache
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.AssemblyInfoInputs.cache
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.AssemblyInfo.cs
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.csproj.CoreCompileInputs.cache
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\bin\Debug\net6.0\TaskManagement.Entities.deps.json
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\bin\Debug\net6.0\TaskManagement.Entities.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\bin\Debug\net6.0\TaskManagement.Entities.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\refint\TaskManagement.Entities.dll
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.pdb
-C:\Users\taii le mehdi\Desktop\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\ref\TaskManagement.Entities.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\bin\Debug\net6.0\TaskManagement.Entities.deps.json
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\bin\Debug\net6.0\TaskManagement.Entities.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\bin\Debug\net6.0\TaskManagement.Entities.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.csproj.AssemblyReference.cache
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.GeneratedMSBuildEditorConfig.editorconfig
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.AssemblyInfoInputs.cache
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.AssemblyInfo.cs
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.csproj.CoreCompileInputs.cache
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\refint\TaskManagement.Entities.dll
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.pdb
-D:\DESKTOP\Project\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\ref\TaskManagement.Entities.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\bin\Debug\net6.0\TaskManagement.Entities.deps.json
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\bin\Debug\net6.0\TaskManagement.Entities.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\bin\Debug\net6.0\TaskManagement.Entities.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.csproj.AssemblyReference.cache
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.AssemblyInfoInputs.cache
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.AssemblyInfo.cs
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.csproj.CoreCompileInputs.cache
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\refint\TaskManagement.Entities.dll
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\TaskManagement.Entities.pdb
+C:\Users\taii le mehdi\Desktop\Prj\TaskManagement.Host.Api\TaskManagement.Entities\obj\Debug\net6.0\ref\TaskManagement.Entities.dll

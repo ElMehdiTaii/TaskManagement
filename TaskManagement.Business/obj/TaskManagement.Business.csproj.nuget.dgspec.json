@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj": {}
+    "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj": {}
   },
   "projects": {
-    "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj": {
+    "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj",
+        "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj",
         "projectName": "TaskManagement.Business",
-        "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj",
+        "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Business\\TaskManagement.Business.csproj",
         "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
-        "outputPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Business\\obj\\",
+        "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,11 +31,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj": {
-                "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj"
+              "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj": {
+                "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj"
               },
-              "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj": {
-                "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj"
+              "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj": {
+                "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj": {
+    "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
         "projectName": "TaskManagement.Entities",
-        "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
+        "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
         "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
-        "outputPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\obj\\",
+        "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -143,14 +143,14 @@
         }
       }
     },
-    "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj": {
+    "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
         "projectName": "TaskManagement.Services.Contract",
-        "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
+        "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj",
         "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
-        "outputPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\obj\\",
+        "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -170,8 +170,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj": {
-                "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj"
+              "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj": {
+                "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj"
               }
             }
           }
@@ -204,14 +204,14 @@
         }
       }
     },
-    "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj": {
+    "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
+        "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
         "projectName": "TaskManagement.Services.EF",
-        "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
+        "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\TaskManagement.Services.EF.csproj",
         "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
-        "outputPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\obj\\",
+        "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -231,8 +231,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj": {
-                "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj"
+              "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj": {
+                "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj"
+              },
+              "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj": {
+                "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj"
               }
             }
           }
@@ -249,23 +252,15 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.6, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -287,14 +282,14 @@
         }
       }
     },
-    "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj": {
+    "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj",
+        "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj",
         "projectName": "TaskManagement.Services.Mongo",
-        "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj",
+        "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\TaskManagement.Services.Mongo.csproj",
         "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
-        "outputPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\obj\\",
+        "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Mongo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -314,8 +309,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj": {
-                "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj"
+              "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj": {
+                "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Services.Contract\\TaskManagement.Services.Contract.csproj"
               }
             }
           }
@@ -344,7 +339,11 @@
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.13.2, )"
+              "version": "[2.11.2, )"
+            },
+            "ServiceStack.Core": {
+              "target": "Package",
+              "version": "[6.1.0, )"
             }
           },
           "imports": [

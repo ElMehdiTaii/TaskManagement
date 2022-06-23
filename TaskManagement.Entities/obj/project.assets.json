@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
       "projectName": "TaskManagement.Entities",
-      "projectPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
+      "projectPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\TaskManagement.Entities.csproj",
       "packagesPath": "C:\\Users\\taii le mehdi\\.nuget\\packages\\",
-      "outputPath": "D:\\DESKTOP\\Project\\TaskManagement.Host.Api\\TaskManagement.Entities\\obj\\",
+      "outputPath": "C:\\Users\\taii le mehdi\\Desktop\\Prj\\TaskManagement.Host.Api\\TaskManagement.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

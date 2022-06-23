@@ -5,13 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="11.0.1" />
-    <PackageReference Include="NBuilder" Version="6.1.0" />
-	  <PackageReference Include="Faker.Net" Version="2.0.154" />
-  </ItemGroup>
-
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="11.0.1" />
+		<PackageReference Include="NBuilder" Version="6.1.0" />
+		<PackageReference Include="Faker.Net" Version="2.0.154" />
+	</ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TaskManagement.Services.EF\TaskManagement.Services.EF.csproj" />
     <ProjectReference Include="..\TaskManagement.Services.Mongo\TaskManagement.Services.Mongo.csproj" />

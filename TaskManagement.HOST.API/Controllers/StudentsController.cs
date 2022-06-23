@@ -36,7 +36,7 @@ namespace TaskManagement.Host.Api.Controllers
                 return BadRequest("Invalid model object");
             }
 
-            if(await _service.UpdateStudent(id,studentForUpdateDto))
+            if(await _service.UpdateStudent((Guid)id,studentForUpdateDto))
                 
                 return Ok("Student Updated Successfully");
             

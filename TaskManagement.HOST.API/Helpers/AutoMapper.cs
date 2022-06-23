@@ -18,7 +18,7 @@ namespace TaskManagement.Host.Api.Helpers
             
             CreateMap<Students, StudentForCreateDto>().ReverseMap();
 
-            CreateMap<Students, StudentForCreateDto>().ReverseMap();
+            CreateMap<Students, StudentForUpdateDto>().ReverseMap();
         }
     }
 }
