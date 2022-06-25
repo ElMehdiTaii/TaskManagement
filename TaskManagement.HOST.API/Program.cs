@@ -2,6 +2,8 @@
 
 
 
+using Microsoft.AspNetCore.Diagnostics;
+using System.Net;
 using TaskManagement.Business.Interfaces;
 using TaskManagement.Host.Api.Extensions;
 using TaskManagement.Services.EF;
@@ -36,6 +38,25 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+else
+{
+    app.UseExceptionHandler(builder =>
+    {
+        builder.Run(async context =>
+        {
+            context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+
+            var error = context.Features.Get<IExceptionHandlerFeature>();
+
+            if (error != null)
+            {
+                context.Response.ConfigureApplicationError(error.Error.Message);
+                await context.Response.WriteAsync(error.Error.Message);
+            }
+        });
+    });
+
 }
 
 

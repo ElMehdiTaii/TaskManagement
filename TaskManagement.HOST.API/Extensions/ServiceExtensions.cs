@@ -27,5 +27,12 @@ namespace TaskManagement.Host.Api.Extensions
       options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
         }
+        public static void ConfigureApplicationError(this HttpResponse response, string message)
+        {
+            response.Headers.Add("Application-Error", message);
+            response.Headers.Add("Application-Error", "Application-Error");
+            response.Headers.Add("Access-Control-Allow-Origin", "*");
+        }
+
     }
 }
